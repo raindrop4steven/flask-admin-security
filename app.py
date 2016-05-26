@@ -80,6 +80,7 @@ admin = flask_admin.Admin(
     'Example: Auth',
     base_template='my_master.html',
     template_mode='bootstrap3',
+    url='/hiddenadmin',
 )
 
 # Add model views
